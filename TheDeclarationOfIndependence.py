@@ -9,18 +9,18 @@ def tirePressure():
     tireState = random.choice(pressures)
     return(tireState)
 
-trireStatus = tirePressure()
+tireStatus = tirePressure()
 
 def pressureSensor():
     if tireStatus == "Left Front":
         print("\n Your",tireStatus,"tire has a low pressure, please fill it soon.")
-        elif tireStatus == "Right Front"
+    elif tireStatus == "Right Front":
         print("\n Your",tireStatus,"tire has a low pressure, please fill it soon.")
-        elif tireStatus == "Right Back"
+    elif tireStatus == "Right Back":
         print("\n Your",tireStatus,"tire has a low pressure, please fill it soon.")
-        elif tireStatus == "Left Back"
+    elif tireStatus == "Left Back":
         print("\n Your",tireStatus,"tire has a low pressure, please fill it soon.")
-        else:
-            print("\All of your tires are at safe Pressures")
+    else:
+        print("\All of your tires are at safe Pressures")
             
-            pressureSensor()
+pressureSensor()
